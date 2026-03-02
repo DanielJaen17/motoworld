@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MotoWorld | Venta de Motocicletas</title>
+
+<style>
+  body{
+    font-family: Arial, Helvetica, sans-serif;
+    background:#ffffff;
+    margin:0;
+    color:#111;
+  }
+
+  /* HEADER MODIFICADO: logo izquierda + título */
+  header{
+    background:#000;
+    color:#fff;
+    padding:18px;
+    font-size:20px;
+    font-weight:bold;
+
+    display:flex;
+    align-items:center;
+    gap:12px;
+    text-align:left;
+  }
+
+  .logo{
+    width:56px;
+    height:auto;
+    display:block;
+  }
+
+  .contenedor{
+    width: 900px;
+    max-width:95%;
+    margin:20px auto;
+  }
+
+  .card{
+    border:1px solid #ddd;
+    padding:18px;
+    margin-bottom:20px;
+    border-radius:12px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.06);
+    background:#fff;
+  }
+
+  h2{ margin-top:0; }
+  p{ line-height:1.5; }
+
+  hr{
+    border:none;
+    border-top:1px solid #e5e5e5;
+    margin:14px 0;
+  }
+
+  figure{
+    text-align:center;
+    margin:0;
+  }
+
+  figure img{
+    width:320px;
+    max-width:100%;
+    border-radius:10px;
+    border:1px solid #e5e5e5;
+    padding:8px;
+    background:#fff;
+  }
+
+  figcaption{
+    font-size:13px;
+    color:#555;
+    margin-top:8px;
+  }
+
+  ul{
+    margin: 10px 0 0;
+    padding-left: 18px;
+  }
+
+  table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:10px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  thead{
+    background:#000;
+    color:#fff;
+  }
+
+  th, td{
+    padding:12px;
+    border:1px solid #ddd;
+    text-align:center;
+    font-size:14px;
+  }
+
+  tbody tr:nth-child(even){
+    background:#f5f5f5;
+  }
+
+  tbody tr:hover{
+    background:#ededed;
+  }
+
+  video, audio{
+    width:100%;
+    margin-top:10px;
+    border-radius:10px;
+    border:1px solid #e5e5e5;
+    background:#fff;
+  }
+
+  footer{
+    text-align:center;
+    font-size:12px;
+    color:#666;
+    padding:20px;
+  }
+</style>
+</head>
+
+<body>
+
+<header>
+  <!-- LOGO ARRIBA A LA IZQUIERDA -->
+  <img class="logo" src="logo.png" alt="Logo de MotoWorld">
+  <!-- TÍTULO ALUSIVO A VENTA -->
+  <div> MotoWorld — Venta de Motocicletas </div>
+</header>
+
+<main class="contenedor">
+
+<!-- INTRODUCCIÓN MODIFICADA (habla de motos + venta/comparativa) -->
+<section class="card">
+  <h2>Venta de Motocicletas</h2>
+  <p>
+    Las motocicletas son una opción de movilidad eficiente, económica y versátil.
+    En esta página se presenta una comparativa informativa de distintos modelos,
+    analizando características como cilindrada, potencia, especificaciones técnicas
+    y precios aproximados dentro del mercado actual.
+  </p>
+  <p>
+    Además, se incluye información histórica de marcas reconocidas y una sección
+    dedicada a la seguridad vial, destacando la importancia del uso de casco y equipo adecuado.
+  </p>
+</section>
+
+<!-- HISTORIA BREVE DE MARCAS (con imagen y audio por marca) -->
+<section class="card">
+  <h2>Breve Historia</h2>
+
+  <h3>Yamaha</h3>
+  <figure>
+    <img src="yamaha.jpg" alt="Imagen de Yamaha">
+    <figcaption>Yamaha MT-07.</figcaption>
+  </figure>
+
+  <!-- AUDIO ESCAPE YAMAHA -->
+  <audio controls>
+    <source src="motoryamaha.mp3" type="audio/mpeg">
+    Tu navegador no soporta audio HTML5.
+  </audio>
+
+  <p>
+    Yamaha Motor se fundó en 1955 en Japón. Desde sus inicios se enfocó en motocicletas con buena relación entre
+    rendimiento y fiabilidad, y con el tiempo se convirtió en una de las marcas más reconocidas a nivel mundial.
+  </p>
+
+  <hr>
+
+  <h3>Kawasaki</h3>
+  <figure>
+    <img src="kawasaki.jpg" alt="Imagen de Kawasaki">
+    <figcaption>Kawasaki H2R.</figcaption>
+  </figure>
+
+  <!-- AUDIO ESCAPE KAWASAKI -->
+  <audio controls>
+    <source src="motorkawasaki.mp3" type="audio/mpeg">
+    Tu navegador no soporta audio HTML5.
+  </audio>
+
+  <p>
+    Kawasaki es parte de un grupo industrial japonés con larga historia. En el mundo de las motos es famosa por su enfoque
+    deportivo, con modelos que priorizan potencia, aceleración y diseño agresivo, especialmente en la línea Ninja.
+  </p>
+
+  <hr>
+
+  <h3>Honda</h3>
+  <figure>
+    <img src="honda.jpg" alt="Imagen de Honda">
+    <figcaption>Honda CBR600R.</figcaption>
+  </figure>
+
+  <!-- AUDIO ESCAPE HONDA -->
+  <audio controls>
+    <source src="motorhonda.mp3" type="audio/mpeg">
+    Tu navegador no soporta audio HTML5.
+  </audio>
+
+  <p>
+   Honda Motor se estableció en 1948 en Japón. Se consolidó por su producción masiva, innovación y confiabilidad,
+    destacando tanto en motos urbanas como en modelos de mayor cilindrada para carretera y aventura.
+  </p>
+
+  <hr>
+
+  <h3>Italika</h3>
+  <figure>
+    <img src="italika.jpg" alt="Imagen de Italika">
+    <figcaption>Italika 250Z.</figcaption>
+  </figure>
+
+  <!-- AUDIO ESCAPE ITALIKA -->
+  <audio controls>
+    <source src="motoritalika.m4a" type="audio/mpeg">
+    Tu navegador no soporta audio HTML5.
+  </audio>
+
+  <p>
+    Italika es una marca mexicana que inició operaciones en 2004 y se popularizó por ofrecer motocicletas accesibles para
+    el uso diario. En México es muy común para movilidad urbana y trabajo, por su disponibilidad y costos de mantenimiento.
+  </p>
+
+</section>
+
+
+<!-- FIGURAS -->
+<section class="card">
+  <h2>Algunos tipos de Motos</h2>
+
+  <figure>
+    <img src="moto.jpg" alt="Motocicleta deportiva">
+    <figcaption>Ejemplo de motocicleta deportiva moderna.</figcaption>
+  </figure>
+
+  <hr>
+
+  <figure>
+    <img src="moto2.jpg" alt="Motocicleta tipo adventure">
+    <figcaption>Ejemplo de motocicleta tipo Adventure para viajes y terreno mixto.</figcaption>
+  </figure>
+</section>
+
+<!-- TIPOS DE MOTOS -->
+<section class="card">
+  <h2>Tipos de Motocicletas</h2>
+  <ul>
+    <li><strong>Naked:</strong> Versátiles para ciudad, postura cómoda, buen equilibrio potencia/uso.</li>
+    <li><strong>Sport:</strong> Enfocadas en velocidad y aerodinámica; postura más agresiva.</li>
+    <li><strong>Adventure:</strong> Pensadas para viajes largos y caminos mixtos; buena comodidad.</li>
+    <li><strong>Urbana:</strong> Económicas y prácticas para traslados diarios.</li>
+  </ul>
+</section>
+
+<!-- TABLA PRINCIPAL -->
+<section class="card">
+  <h2>Comparativa de Modelos</h2>
+  <p>Tabla con modelos y datos generales (ejemplo escolar).</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Modelo</th>
+        <th>Tipo</th>
+        <th>Cilindrada (cc)</th>
+        <th>Potencia (HP)</th>
+        <th>Precio Aprox. (MXN)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Yamaha MT-07</td>
+        <td>Naked</td>
+        <td>689</td>
+        <td>74</td>
+        <td>$189,000</td>
+      </tr>
+      <tr>
+        <td>Kawasaki Ninja 400</td>
+        <td>Sport</td>
+        <td>399</td>
+        <td>45</td>
+        <td>$149,000</td>
+      </tr>
+      <tr>
+        <td>Honda CB500X</td>
+        <td>Adventure</td>
+        <td>471</td>
+        <td>47</td>
+        <td>$175,000</td>
+      </tr>
+      <tr>
+        <td>Italika DM200</td>
+        <td>Urbana / Doble propósito</td>
+        <td>200</td>
+        <td>15</td>
+        <td>$39,999</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<!-- VENTAJAS / DESVENTAJAS -->
+<section class="card">
+  <h2>Ventajas y Desventajas por Tipo</h2>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Tipo</th>
+        <th>Ventajas</th>
+        <th>Desventajas</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Sport</td>
+        <td>Mejor desempeño y estabilidad a alta velocidad</td>
+        <td>Menos cómoda y más exigente en ciudad</td>
+      </tr>
+      <tr>
+        <td>Adventure</td>
+        <td>Comodidad + versatilidad para viajes</td>
+        <td>Más pesada y alta (puede costar maniobrar)</td>
+      </tr>
+      <tr>
+        <td>Naked</td>
+        <td>Ágil, práctica y divertida en uso diario</td>
+        <td>Menos protección contra viento</td>
+      </tr>
+      <tr>
+        <td>Urbana</td>
+        <td>Bajo costo y mantenimiento sencillo</td>
+        <td>Potencia limitada para carretera</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<!-- ESPECIFICACIONES TÉCNICAS -->
+<section class="card">
+  <h2>Especificaciones Técnicas (Comparativa)</h2>
+  <p>Datos aproximados para comparar rendimiento y uso.</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Modelo</th>
+        <th>Torque</th>
+        <th>Transmisión</th>
+        <th>Tanque</th>
+        <th>Peso</th>
+        <th>Vel. Máx. (aprox.)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Yamaha MT-07</td>
+        <td>68 Nm</td>
+        <td>6 vel.</td>
+        <td>14 L</td>
+        <td>183 kg (wet)</td>
+        <td>~229 km/h</td>
+      </tr>
+      <tr>
+        <td>Kawasaki Ninja 400</td>
+        <td>~38 Nm</td>
+        <td>6 vel.</td>
+        <td>14 L</td>
+        <td>168 kg (wet)</td>
+        <td>~169 km/h</td>
+      </tr>
+      <tr>
+        <td>Honda CB500X</td>
+        <td>43.2 Nm</td>
+        <td>6 vel.</td>
+        <td>17.7 L</td>
+        <td>199 kg (wet)</td>
+        <td>~170 km/h</td>
+      </tr>
+      <tr>
+        <td>Italika DM200</td>
+        <td>16 Nm</td>
+        <td>5 vel.</td>
+        <td>11 L</td>
+        <td>121 kg (wet)</td>
+        <td>~110 km/h</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+
+<!-- SEGURIDAD VIAL: CASCOS Y MONOTRAJE -->
+<section class="card">
+  <h2>Seguridad Vial: Cascos y Equipo (precios de referencia)</h2>
+  <p>
+    En moto, el casco no es “accesorio”, es el seguro de vida que sí te puedes poner. Aquí hay ejemplos de precios
+    desde gama alta hasta gama media, y un monotraje de precio medio.
+  </p>
+
+  <h3>Cascos (ejemplos)</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Marca / Modelo</th>
+        <th>Tipo</th>
+        <th>Rango</th>
+        <th>Precio aprox. (MXN)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>AGV Pista GP RR</td>
+        <td>Integral racing (gama alta)</td>
+        <td>Más caro</td>
+        <td>$35,999</td>
+      </tr>
+      <tr>
+        <td>Alpinestars Supertech R10</td>
+        <td>Integral racing (gama alta)</td>
+        <td>Alta</td>
+        <td>$32,399</td>
+      </tr>
+      <tr>
+        <td>AGV K1 S</td>
+        <td>Integral (gama media)</td>
+        <td>Medio</td>
+        <td>$6,300</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3>Monotraje (precio medio)</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Equipo</th>
+        <th>Uso</th>
+        <th>Precio aprox. (MXN)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Dainese Laguna Seca 5 (monopiel)</td>
+        <td>Pista / conducción deportiva</td>
+        <td>$35,996</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p style="font-size:13px;color:#555;margin-top:10px;">
+    Nota: Los precios son de referencia y pueden variar por talla, stock y tienda.
+  </p>
+</section>
+
+<!-- MULTIMEDIA -->
+<section class="card">
+  <h2>Video y Audio</h2>
+
+  <h3>Video de motocicleta Honda CBR1000RR-R SP</h3>
+  <video controls>
+    <source src="CBR1000RR.mp4" type="video/mp4">
+    Tu navegador no soporta video HTML5.
+  </video>
+
+  <h3>Sonido de motor</h3>
+  <audio controls>
+    <source src="motorcbr.mp3" type="audio/mpeg">
+    Tu navegador no soporta audio HTML5.
+  </audio>
+</section>
+
+<!-- CONCLUSIÓN -->
+<section class="card">
+  <h2>Recuerda</h2>
+  <p>
+    Las motos se eligen según el uso: ciudad, carretera, viajes o desempeño. Además de potencia y precio, la seguridad
+    (casco y equipo) debe considerarse como parte esencial del presupuesto. Una comparativa ayuda a tomar decisiones
+    con información clara y ordenada.
+  </p>
+</section>
+
+</main>
+
+<footer>
+®2026- Tecnm campus Pachuca- Programacion web- Martinez Jaen Daniel
+</footer>
+
+</body>
+</html>
